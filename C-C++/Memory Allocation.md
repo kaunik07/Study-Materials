@@ -133,12 +133,6 @@ int main() {
         for (i = 0; i < n; ++i) {
             ptr[i] = i + 1;
         }
-
-        // Print the elements of the array
-        printf("The elements of the array are: ");
-        for (i = 0; i < n; ++i) {
-            printf("%d ", ptr[i]);
-        }
     }
 
     // Resize the memory block using realloc
