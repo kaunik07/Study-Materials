@@ -12,6 +12,15 @@
 | **Pointer to Constant**        | The value at the address cannot be changed.                      |
 | **Constant Pointer to Constant**  | Neither the address nor the value can be changed.                |
 
+### Remeber
+```int* ptr1, ptr2;```
+
+only `ptr1` is a pointer to an integer. `ptr2` is just an integer.
+
+Explanation:
+`int* ptr1` declares `ptr1` as a pointer to an integer.
+`ptr2` is declared as an integer because the `*` operator only applies to `ptr1`.
+
 ## NULL/nullpt Pointer
 A null pointer is a pointer that does not point to any valid memory location. It is often used to indicate that the pointer is not currently pointing to any object.
 

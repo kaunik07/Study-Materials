@@ -1,4 +1,7 @@
 # Summary
+
+### Remeber these require to include `#include <memory>`
+
 | Smart Pointer   | Usage                                                                                           |
 |-----------------|-------------------------------------------------------------------------------------------------|
 | `unique_ptr`    | Use `unique_ptr` when you need exclusive ownership and don’t want to share the resource.        |
